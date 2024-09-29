@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(127, 240, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.card {
+    background-color: #ede6e6;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Display */
+
+.display {
+    background-color: #f1eeee;
+    height: 30%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: inset 2px 3px 11px rgb(0, 0, 0, 0.16), 5px 5px 12px #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.display input {
+    background-color: transparent;
+    border: none;
+    text-align: end;
+    font-size: 2em;
+    width: 90%;
+    outline: none;
+}
+
+
+/* Button */
+
+.button {
+    height: 70%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tombol {
+    background-color: #ede6e6;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: rgb(166, 71, 255);
+    font-weight: bold;
+    /* Angka sekarang menjadi bold */
+}
+
+.tombol:hover {
+    transform: scale(0.9);
+}
+
+.tombol-kiri {
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tombol-kanan {
+    width: 35%;
+    border-radius: 20px;
+    background-color: rgba(242, 255, 251, 0.396);
+    box-shadow: inset 5px 5px 12px rgb(0, 0, 0, 0.26), 5px 5px 12px #f1e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
